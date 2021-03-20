@@ -5,7 +5,7 @@ import {
   InfoWrapper,
   InfoRow,
   Column1,
-  TextWrapper,
+  TextWrapper, 
   TopLine,
   Heading,
   Subtitle,
@@ -30,6 +30,7 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
+  location,
 }) => {
   return (
     <>
@@ -43,7 +44,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to={location}
                     smooth={true}
                     duration={500}
                     spy={true}
