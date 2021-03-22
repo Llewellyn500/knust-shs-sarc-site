@@ -10,6 +10,8 @@ import {
   homeObjTwo,
   homeObjFive,
 } from "../components/InfoSection/Data";
+import Founders from "../components/Founders";
+import Team from "../components/Team";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +27,9 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
+      <Founders />
       <InfoSection {...homeObjThree} />
+      <Team />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjFive} />
     </>

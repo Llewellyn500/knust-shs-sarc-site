@@ -22,7 +22,6 @@ const SideBar = ({ isOpen, toggle }) => {
           <SidebarLink to="history" onClick={toggle}>History</SidebarLink>
           <SidebarLink to="founders" onClick={toggle}>Founders</SidebarLink>
           <SidebarLink to="team" onClick={toggle}>Team</SidebarLink>
-          <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
           <SidebarLink to="signup" onClick={toggle}>Sign Up</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
