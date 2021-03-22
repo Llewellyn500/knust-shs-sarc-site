@@ -41,11 +41,11 @@ export const homeObjThree = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Founders",
-  location: "history",
   headline: "A word from the founders",
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).",
   buttonLabel: "Read More",
+  location: "history",
   imgStart: false,
   img: require("../../../src/images/svg3.svg").default,
   alt: "founders",
