@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavbarContainer,
@@ -27,29 +28,61 @@ const Navbar = ({ toggle }) => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/">SARC</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}>
+            SARC
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks
+                to="about"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                About
+              </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="history">History</NavLinks>
+              <NavLinks to="history"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>History</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="founders">Founders</NavLinks>
+              <NavLinks to="founders" smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>Founders</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="team">Team</NavLinks>
+              <NavLinks to="team" smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>Team</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks to="signup" smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}>Sign Up</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
