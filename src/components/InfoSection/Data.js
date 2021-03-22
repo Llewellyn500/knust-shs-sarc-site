@@ -73,6 +73,7 @@ export const homeObjFour = {
 };
 
 export const homeObjFive = {
+  id: "signup",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,

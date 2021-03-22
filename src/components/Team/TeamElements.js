@@ -48,7 +48,7 @@ export const TeamCard = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease-in-out;
 
-  &::hover {
+  &:hover {
     transform: scale(1.02);
     transition: all 0.5s ease-in-out;
     cursor: pointer;
