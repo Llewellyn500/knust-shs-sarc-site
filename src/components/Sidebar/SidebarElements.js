@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #0d0d0d;
+  background: #000;
   display: grid;
   align-items: center;
   top: 0;
@@ -86,6 +86,6 @@ export const SidebarRoute = styled(LinkR)`
   &:hover {
     transition: all 0.5s ease-in-out;
     background: #fff;
-    color: #010606;
+    color: #000;
   }
 `;

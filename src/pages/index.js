@@ -12,6 +12,7 @@ import {
 } from "../components/InfoSection/Data";
 import Founders from "../components/Founders";
 import Team from "../components/Team";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +33,7 @@ const Home = () => {
       <Team />
       <InfoSection {...homeObjFour} />
       <InfoSection {...homeObjFive} />
+      <Footer />
     </>
   );
 };
