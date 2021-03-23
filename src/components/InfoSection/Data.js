@@ -17,8 +17,9 @@ export const homeObjOne = {
   darkText: false,
 };
 
-export const homeObjTwo = {
+export const history = {
   id: "history",
+  to: "/history",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -27,7 +28,6 @@ export const homeObjTwo = {
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science.",
   buttonLabel: "Read More",
-  to: "history",
   imgStart: true,
   img: require("../../../src/images/svg2.svg").default,
   alt: "history",
@@ -36,7 +36,7 @@ export const homeObjTwo = {
   darkText: true,
 };
 
-export const homeObjThree = {
+export const foundersword = {
   id: "founders",
   lightBg: false,
   lightText: true,
@@ -46,7 +46,7 @@ export const homeObjThree = {
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).",
   buttonLabel: "Read More",
-  to: "history",
+  to: "/foundersword",
   imgStart: false,
   img: require("../../../src/images/svg3.svg").default,
   alt: "founders",
@@ -55,7 +55,7 @@ export const homeObjThree = {
   darkText: false,
 };
 
-export const homeObjFour = {
+export const teamword = {
   id: "team",
   lightBg: true,
   lightText: false,
@@ -65,7 +65,7 @@ export const homeObjFour = {
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).",
   buttonLabel: "Read More",
-  to: "history",
+  to: "/teamword",
   imgStart: true,
   img: require("../../../src/images/svg4.svg").default,
   alt: "team",

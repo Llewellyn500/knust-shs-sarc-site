@@ -14,6 +14,7 @@ import {
   FooterLinksWrapper,
   FooterLinkItems,
   FooterLink,
+  FooterLinks,
   FooterLinkTitle,
   SocialMedia,
   SocialMediaWrap,
@@ -35,30 +36,29 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us </FooterLinkTitle>
-              <FooterLink to="/signin">How it Works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Carrers</FooterLink>
-              <FooterLink to="/signin">Temas</FooterLink>
-              <FooterLink to="/signin">What u looking at</FooterLink>
+              <FooterLink to="/history">Who We Are</FooterLink>
+              <FooterLink to="/foundersword">Founders</FooterLink>
+              <FooterLink to="teamword">Teams</FooterLink>
+              <FooterLink to="/history">Projects</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to="/signin">How it Works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Carrers</FooterLink>
-              <FooterLink to="/signin">Temas</FooterLink>
-              <FooterLink to="/signin">What u looking at</FooterLink>
+              <FooterLinks href="https://goo.gl/maps/Y3UQsKTtUfggTctK8" target="_blank">Location</FooterLinks>
+              <FooterLinks href="#" target="_blank">Facebook</FooterLinks>
+              <FooterLinks href="#" target="_blank">Our Patron</FooterLinks>
+              <FooterLinks href="#" target="_blank">School's Headmistress</FooterLinks>
+              <FooterLinks href="#" target="_blank">Llewellyn Paintsil</FooterLinks>
             </FooterLinkItems>
           </FooterLinksWrapper>
 
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Donate</FooterLinkTitle>
-              <FooterLink to="/signin">How it Works</FooterLink>
-              <FooterLink to="/signin">Testimonials</FooterLink>
-              <FooterLink to="/signin">Carrers</FooterLink>
-              <FooterLink to="/signin">Temas</FooterLink>
-              <FooterLink to="/signin">What u looking at</FooterLink>
+              <FooterLinkTitle>Support</FooterLinkTitle>
+              <FooterLinks href="#" target="_blank">Bank Wire</FooterLinks>
+              <FooterLinks href="#" target="_blank">PayPal</FooterLinks>
+              <FooterLinks href="#" target="_blank">MTN Mobile Money</FooterLinks>
+              <FooterLinks href="#" target="_blank">Vodafone Cash</FooterLinks>
+              <FooterLinks href="#" target="_blank">World Remit</FooterLinks>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

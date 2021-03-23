@@ -66,6 +66,18 @@ export const FooterLink = styled(Link)`
   }
 `;
 
+export const FooterLinks = styled.a`
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+
+  &:hover {
+    color: #ffc107;
+    transition: 0.5s ease-out;
+  }
+`;
+
 export const SocialMedia = styled.section`
     max-width:1000px;
     width: 100%;

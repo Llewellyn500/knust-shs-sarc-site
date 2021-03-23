@@ -4,16 +4,19 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import {
-  homeObjFour,
+  teamword,
   homeObjOne,
-  homeObjThree,
-  homeObjTwo,
+  foundersword,
+  history,
   signup,
 } from "../components/InfoSection/Data";
 import Founders from "../components/Founders";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
 import SignUp from "../components/InfoSection/signup";
+import History from "../components/InfoSection/history";
+import FoundersWord from "../components/InfoSection/foundersword";
+import TeamWord from "../components/InfoSection/teamword";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,12 +31,12 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      <History {...history} />
       <Founders />
-      <InfoSection {...homeObjThree} />
+      <FoundersWord {...foundersword} />
       <Team />
-      <InfoSection {...homeObjFour} />
-      <SignUp {...signup}/>
+      <TeamWord {...teamword} />
+      <SignUp {...signup} />
       <Footer />
     </>
   );

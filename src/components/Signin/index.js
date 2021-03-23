@@ -14,7 +14,6 @@ import {
 
 const SignIn = () => {
   return (
-    <>
       <Container>
         <FormWrap>
           <Icon to="/">SARC</Icon>
@@ -31,7 +30,6 @@ const SignIn = () => {
           </FormContent>
         </FormWrap>
       </Container>
-    </>
   );
 };
 
