@@ -1,11 +1,60 @@
 {
+  "name": "KNUST SHS Science And Robotics Club",
   "short_name": "SARC",
-  "name": "KNUST SHS Science & Robotics Club",
-  "icons": [
-
-  ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
+  "description": "KNUST SHS Science and robotics club's website.",
+  "categories": ["SARC", "KNUST SHS", "KNUST", "Robotics", "website", "Science", "science and robotics club"],
+  "lang": "English",
   "theme_color": "#ffc107",
-  "background_color": "#ffc107"
+  "background_color": "#fff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./img/ios-logo.png ",
+      "type": "image/png",
+      "sizes": "900x900",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./img/icons/icon48.png ",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "./img/icons/icon72.png ",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "./img/icons/icon96.png ",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./img/icons/icon128.png ",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./img/icons/icon144.png ",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "./img/icons/icon152.png ",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "./img/icons/icon192.png ",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./img/icons/icon512.png ",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }

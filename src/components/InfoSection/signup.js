@@ -1,21 +1,21 @@
 import React from "react";
-import { Button } from "../ButtonElements";
 import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
   Column1,
   TextWrapper, 
-  TopLine, 
+  TopLine,
   Heading,
   Subtitle,
   BtnWrap,
   Column2,
   ImgWrap,
   Img,
-} from "./InfoElements";
+  ButtonLink
+} from "./signupElements";
 
-const InfoSection = ({
+const SignUp = ({
   lightBg,
   id,
   imgStart,
@@ -30,7 +30,7 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
-  to
+  to,
 }) => {
   return (
     <>
@@ -43,7 +43,7 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button
+                  <ButtonLink
                     to={to}
                     smooth={true}
                     duration={500}
@@ -55,7 +55,7 @@ const InfoSection = ({
                     dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
-                  </Button>
+                  </ButtonLink>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
@@ -71,4 +71,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default SignUp;

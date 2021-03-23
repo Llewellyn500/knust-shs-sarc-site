@@ -1,6 +1,6 @@
 {
   "name": "knust-shs-sarc-site",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -41,6 +41,7 @@
   },
   "description": "KNUST SHS Science And Robotics Club's Website.",
   "main": "index.js",
-  "author": "Llewellyn Paintsil",
-  "license": "MIT"
+  "author": "Llewellyn Adonteng Paintsil",
+  "license": "MIT",
+  "repository": "https://github.com/Llewellyn500/knust-shs-sarc-site.git"
 }

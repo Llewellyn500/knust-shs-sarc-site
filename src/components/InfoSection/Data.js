@@ -8,7 +8,7 @@ export const homeObjOne = {
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).",
   buttonLabel: "Our History",
-  location: "history",
+  to: "history",
   imgStart: false,
   img: require("../../../src/images/svg1.svg").default,
   alt: "we",
@@ -27,7 +27,7 @@ export const homeObjTwo = {
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science.",
   buttonLabel: "Read More",
-  location: "history",
+  to: "history",
   imgStart: true,
   img: require("../../../src/images/svg2.svg").default,
   alt: "history",
@@ -37,6 +37,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
+  id: "founders",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -45,7 +46,7 @@ export const homeObjThree = {
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).",
   buttonLabel: "Read More",
-  location: "history",
+  to: "history",
   imgStart: false,
   img: require("../../../src/images/svg3.svg").default,
   alt: "founders",
@@ -55,6 +56,7 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
+  id: "team",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -63,7 +65,7 @@ export const homeObjFour = {
   description:
     "We are a group of young innovative minds originated from KNUST SHS aiming to be the best we can in the fields of science, technology and engineering. We aim to educate the younger generation on the beauty and the possibilities of science and technology so they can help to improve the poor technological status of our country. Who are we? We say we are SARC (Science and Robotics Club).",
   buttonLabel: "Read More",
-  location: "history",
+  to: "history",
   imgStart: true,
   img: require("../../../src/images/svg4.svg").default,
   alt: "team",
@@ -72,7 +74,7 @@ export const homeObjFour = {
   darkText: true,
 };
 
-export const homeObjFive = {
+export const signup = {
   id: "signup",
   lightBg: false,
   lightText: true,
@@ -82,7 +84,7 @@ export const homeObjFive = {
   description:
     "By joining us, you will be notified of any issues or projects we make. You will also be added to the list of sponsors.",
   buttonLabel: "Join Now",
-  location: "history",
+  to: '/signup',
   imgStart: false,
   img: require("../../../src/images/svg5.svg").default,
   alt: "team",

@@ -8,11 +8,12 @@ import {
   homeObjOne,
   homeObjThree,
   homeObjTwo,
-  homeObjFive,
+  signup,
 } from "../components/InfoSection/Data";
 import Founders from "../components/Founders";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
+import SignUp from "../components/InfoSection/signup";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,7 @@ const Home = () => {
       <InfoSection {...homeObjThree} />
       <Team />
       <InfoSection {...homeObjFour} />
-      <InfoSection {...homeObjFive} />
+      <SignUp {...signup}/>
       <Footer />
     </>
   );
