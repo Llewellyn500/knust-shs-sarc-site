@@ -5,7 +5,7 @@ import History from "../components/History";
 const HistoryPage = () => {
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <History />
     </>
   );

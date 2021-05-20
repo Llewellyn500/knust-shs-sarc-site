@@ -5,7 +5,7 @@ import TeamWord from "../components/Teamword";
 const TeamWordPage = () => {
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <TeamWord />
     </>
   );

@@ -1,16 +1,12 @@
 import React from "react";
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages";
 import SignInPage from "./pages/signin";
 import SignUpPage from "./pages/signup";
 import HistoryPage from "./pages/history";
 import FoundersWordPage from "./pages/foundersword";
-import TeamWord from "./pages/teamword"
+import TeamWord from "./pages/teamword";
 
 function App() {
   return (

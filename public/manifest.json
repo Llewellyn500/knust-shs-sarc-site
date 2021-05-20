@@ -4,7 +4,15 @@
   "start_url": "/",
   "display": "standalone",
   "description": "KNUST SHS Science and robotics club's website.",
-  "categories": ["SARC", "KNUST SHS", "KNUST", "Robotics", "website", "Science", "science and robotics club"],
+  "categories": [
+    "SARC",
+    "KNUST SHS",
+    "KNUST",
+    "Robotics",
+    "website",
+    "Science",
+    "science and robotics club"
+  ],
   "lang": "English",
   "theme_color": "#ffc107",
   "background_color": "#fff",

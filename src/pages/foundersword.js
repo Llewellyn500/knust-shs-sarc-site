@@ -5,7 +5,7 @@ import FoundersWord from "../components/Foundersword";
 const FoundersWordPage = () => {
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <FoundersWord />
     </>
   );

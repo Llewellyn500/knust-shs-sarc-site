@@ -5,7 +5,7 @@ import SignUp from "../components/Signup";
 const SignUpPage = () => {
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <SignUp />
     </>
   );

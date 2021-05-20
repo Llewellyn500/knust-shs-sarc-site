@@ -5,7 +5,7 @@ import SignIn from "../components/Signin";
 const SignInPage = () => {
   return (
     <>
-    <ScrollToTop />
+      <ScrollToTop />
       <SignIn />
     </>
   );
